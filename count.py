@@ -6,7 +6,7 @@ while n > 0:
     last_digit = n % 10
     if last_digit == target_digit:
         break
-    count = count + 1
+    count = count + 1 
     n = n // 10
 
 if n == 0:
