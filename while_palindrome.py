@@ -1,0 +1,12 @@
+n = int(input("n="))
+original = n
+reversed = 0
+while n > 0:
+    digit = n % 10
+    reversed = reversed * 10 + digit
+    n = n // 10
+
+if original == reversed:
+    print("its palindrome")
+else:
+    print("its not palindrome")
